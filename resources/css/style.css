@@ -1,3 +1,6 @@
+html {
+    font-size: 18px;
+}
 body {
     background-color: black;
     color: white;
@@ -6,4 +9,31 @@ body {
 }
 header h1 {
     font-size: 50px;
+    padding: 0 1rem;
+    font-weight: normal;
+}
+.download-hint {
+    color: aquamarine;
+    font-size: 16px;
+    margin-top: 3rem;
+}
+a {
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+}
+video {
+    margin-top: 1rem;
+}
+h2 {
+    font-weight: 300;
+    font-size: 2.3rem;
+}
+.description {
+    font-size: 1.17rem;
+    color: gray;
+}
+.footer {
+    text-align: right;
+    color: gray;
+    margin-right: 0.5rem;
 }
